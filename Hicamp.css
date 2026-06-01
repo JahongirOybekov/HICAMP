@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.boll input {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #1a1a1a;
+    color: white;
+}
+
+.kall a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.kit {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.qoshin {
+    z-index: 2;
+    max-width: 600px;
+}
+
+.days {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.kut {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url('') no-repeat center right;
+    background-size: cover;
+}
+
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #111;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #888;
+    font-size: 20px;
+}
