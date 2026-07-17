@@ -1,0 +1,626 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+header {
+    width: 1440px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header .bir {
+    width: 168px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .bir img {
+    width: 38px;
+    height: 38px;
+}
+
+header .bir a {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* *=======ikki======== */
+header .ikki {
+    width: 388px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .ikki a {
+    font-size: 20px;
+
+}
+
+/** =======uch========== */
+header .uch {
+    width: 172px;
+    height: 32px;
+}
+
+header .uch button {
+    width: 172px;
+    height: 32px;
+    border: none;
+    background-color: #2E4FD7;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+header .uch button a {
+    color: white;
+    margin-right: 10px;
+}
+
+/* !==========main-1========== */
+/* !========================== */
+.main-1 {
+    width: 1200px;
+    height: 549px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.main-1 .teks {
+    width: 635px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-1 .teks .h1 {
+    width: 635px;
+    height: 216px;
+
+}
+
+.main-1 .teks .h1 h1 {
+    font-size: 65px;
+}
+
+.main-1 .teks .p {
+    width: 320px;
+    height: 90px;
+}
+
+.main-1 .teks .button {
+    width: 480px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-1 .teks .button p {
+    width: 210px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.main-1 .teks .button button {
+    width: 198px;
+    height: 56px;
+    border: none;
+    background-color: #2E4FD7;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main-1 .teks .rasmlar {
+    width: 480px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-1 .teks .rasmlar img {
+    width: 110px;
+    height: 41px;
+
+}
+
+/* *=======img========== */
+.main-1 .img {
+    width: 480px;
+    height: 549px;
+}
+
+.main-1 .img img {
+    width: 480px;
+    height: 549px;
+    border-radius: 5px;
+}
+
+/* !==========main-2========== */
+/* !========================== */
+.main-2 {
+    width: 1114px;
+    height: 367px;
+    margin: auto;
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-2 .first {
+    width: 410px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-2 .first .first1 {
+    width: 408px;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-2 .first .first1 .i {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #E7EBFC;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2E4FD7;
+}
+
+.main-2 .first .first1 .text {
+    width: 330px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-2 .first .first1 .text h2 {
+    font-size: 30px;
+}
+
+.main-2 .first .first1 .text small {
+    font-size: 17px;
+    color: gray;
+}
+
+/* *==========Learn============= */
+.main-2 .learn {
+    width: 540px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-2 .learn h3 {
+    font-size: 54px;
+}
+
+.main-2 .learn div {
+    width: 445px;
+    height: 60px;
+    font-size: 22px;
+    color: gray;
+}
+
+.main-2 .learn button {
+    width: 213px;
+    height: 56px;
+    background-color: #2E4FD7;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* !==========main-3========== */
+/* !========================== */
+.main-3 {
+    width: 1110px;
+    height: 361px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-3 .tect {
+    width: 668px;
+    height: 62px;
+    font-size: 55px;
+}
+
+.main-3 .time {
+    width: 1110px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-3 .time .lorem {
+    width: 540px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-3 .time .lorem .rasm {
+    width: 72px;
+    height: 72px;
+}
+
+.main-3 .time .lorem .rasm img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.main-3 .time .lorem .yozu {
+    width: 428px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-3 .time .lorem .yozu p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.main-3 .time .lorem .yozu small {
+    font-size: 20px;
+    color: gray;
+}
+
+/* !==========main-4=========== */
+/* !=========================== */
+.main-4 {
+    width: 1110px;
+    height: 700px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #E7EBFC;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.main-4 .birinchi {
+    width: 588px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-4 .birinchi h4 {
+    width: 572px;
+    height: 52px;
+    font-size: 42px;
+}
+
+.main-4 .birinchi p {
+    width: 520px;
+    height: 260px;
+    font-size: 42px;
+}
+
+.main-4 .birinchi .read {
+    width: 233px;
+    height: 57px;
+}
+
+.main-4 .birinchi .read span {
+    display: block;
+    color: #2E4FD7;
+    font-size: 18px;
+}
+
+.main-4 .birinchi .nuqta {
+    width: 26px;
+    height: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-4 .birinchi .nuqta .div1 {
+    width: 6px;
+    height: 6px;
+    background-color: #2E4FD7;
+    border-radius: 50%;
+}
+
+.main-4 .birinchi .nuqta .div2 {
+    width: 6px;
+    height: 6px;
+    background-color: #B4B4B4;
+    border-radius: 50%;
+}
+
+/* *==========ikkinchi========= */
+.main-4 .ikkinchi {
+    width: 380px;
+    height: 420px;
+}
+
+.main-4 .ikkinchi img {
+    width: 380px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+/* !=======main-5========== */
+/* !======================= */
+.main-5 {
+    width: 1110px;
+    height: 250px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-5 h5 {
+    width: 730px;
+    height: 52px;
+    font-size: 50px;
+}
+
+.main-5 .ideate {
+    width: 1110px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-5 .ideate .box {
+    width: 255px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-5 .ideate .box .divlar {
+    width: 231px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-5 .ideate .box .divlar .dumoloq {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #2E4FD7;
+}
+
+.main-5 .ideate .box .divlar .chiziq {
+    width: 183px;
+    height: 0.5px;
+    background-color: gray;
+
+}
+
+.main-5 .ideate .box .yoozu {
+    width: 255px;
+    height: 90px;
+}
+
+.main-5 .ideate .box .yoozu p {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.main-5 .ideate .box .yoozu span {
+    font-size: 20px;
+    color: gray;
+}
+
+/* !==========main-6========= */
+/* !========================= */
+.main-6 {
+    width: 1440px;
+    height: 660px;
+    background-color: #E7EBFC;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main-6 h1 {
+    width: 920px;
+    height: 124px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-6 p {
+    width: 826px;
+    height: 56px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-6 button {
+    width: 198px;
+    height: 56px;
+    background-color: #2E4FD7;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.main-6 div {
+    width: 1110px;
+    height: 2px;
+    background-color: gray;
+}
+
+.main-6 img {
+    width: 942px;
+    height: 43px;
+
+}
+
+/* !============footer========== */
+/* !============================ */
+footer {
+    width: 1440px;
+    height: 408px;
+    background-color: #052825;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .foter {
+    width: 1170px;
+    height: 294px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+footer .foter .about {
+    width: 1169px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .foter .about h5 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/* *=======contact======== */
+footer .foter .about .contact {
+    width: 1169px;
+    height: 139px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* *=========box1======== */
+.foter .about .contact .box1 {
+    width: 423px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foter .about .contact .box1 p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.foter .about .contact .box1 span {
+    font-size: 15px;
+}
+
+.foter .about .contact .box1 div {
+    width: 116px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+/* *==========box2======= */
+.foter .about .contact .box2 {
+    width: 549px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.foter .about .contact .box2 .div3 {
+    width: 549px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.foter .about .contact .box2 .div4 {
+    width: 449px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* *======choziq===== */
+.foter .chiziq1 {
+    width: 1170px;
+    height: 1.5px;
+    background-color: gray;
+}
+
+.foter .low {
+    width: 1170px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foter .low p {
+    width: 387px;
+    height: 44px;
+}
