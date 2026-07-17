@@ -1,0 +1,622 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+body {
+    background-color: #052825;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header .bir {
+    width: 168px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .bir img {
+    width: 38px;
+    height: 38px;
+}
+
+header .bir a {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* *=======ikki======== */
+header .ikki {
+    width: 388px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .ikki a {
+    font-size: 20px;
+
+}
+
+/** =======uch========== */
+header .uch {
+    width: 172px;
+    height: 32px;
+}
+
+header .uch button {
+    width: 172px;
+    height: 32px;
+    border: none;
+    background-color: #2E4FD7;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+header .uch button a {
+    color: white;
+    margin-right: 10px;
+}
+
+/* !===========main-1========= */
+/* !========================== */
+.main-1 {
+    width: 1200px;
+    height: 549px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: white;
+}
+
+.main-1 .teks {
+    width: 635px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-1 .teks .h1 {
+    width: 635px;
+    height: 216px;
+
+}
+
+.main-1 .teks .h1 h1 {
+    font-size: 65px;
+}
+
+.main-1 .teks .p {
+    width: 320px;
+    height: 90px;
+}
+
+.main-1 .teks .button {
+    width: 480px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-1 .teks .button p {
+    width: 210px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.main-1 .teks .button button {
+    width: 198px;
+    height: 56px;
+    border: none;
+    background-color: #2E4FD7;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main-1 .teks .rasmlar {
+    width: 480px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-1 .teks .rasmlar img {
+    width: 110px;
+    height: 41px;
+
+}
+
+/* *=======img========== */
+.main-1 .img {
+    width: 480px;
+    height: 549px;
+}
+
+.main-1 .img img {
+    width: 480px;
+    height: 549px;
+    border-radius: 5px;
+}
+
+/* !===========main-2========== */
+/* !=========================== */
+.main-2 {
+    width: 1440px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.main-2 .one {
+    width: 540px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-2 .one .h1 h1 {
+    width: 335px;
+    height: 52px;
+    font-size: 45px;
+}
+
+.main-2 .one .h1 {
+    width: 540px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-2 .one .h1 p {
+    font-size: 22px;
+}
+
+.main-2 .one .box {
+    width: 488px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-2 .one .box .span {
+    width: 203px;
+    height: 162px;
+}
+
+.main-2 .one .box .span .for {
+    width: 111px;
+    height: 82px;
+}
+
+.main-2 .one .box .span .for span {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.main-2 .one .box .span .for small {
+    font-size: 45px;
+}
+
+.main-2 .one .box .span .p {
+    width: 203px;
+    height: 78px;
+    font-size: 17px;
+}
+
+/* *========two======= */
+.main-2 .two {
+    width: 530px;
+    height: 350px;
+
+}
+
+.main-2 .two img {
+    width: 530px;
+    height: 350px;
+    border-radius: 4px;
+}
+
+/* !========main-3======== */
+/* !====================== */
+.main-3 {
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.main-3 h2 {
+    width: 540px;
+    height: 124px;
+    font-size: 55px;
+}
+
+.main-3 .box1 {
+    width: 620px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-3 .first {
+    width: 610px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.main-3 .first div {
+    width: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-3 .first div i {
+    font-size: 30px;
+}
+
+.main-3 .first div p {
+    font-size: 25px;
+}
+
+.main-3 .first div small {
+    font-size: 15px;
+}
+
+/* !============main-4========= */
+/* !=========================== */
+.main-4 {
+    width: 1110px;
+    height: 700px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #E7EBFC;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.main-4 .birinchi {
+    width: 588px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-4 .birinchi h4 {
+    width: 572px;
+    height: 52px;
+    font-size: 42px;
+}
+
+.main-4 .birinchi p {
+    width: 520px;
+    height: 260px;
+    font-size: 42px;
+}
+
+.main-4 .birinchi .read {
+    width: 233px;
+    height: 57px;
+}
+
+.main-4 .birinchi .read span {
+    display: block;
+    color: #2E4FD7;
+    font-size: 18px;
+}
+
+.main-4 .birinchi .nuqta {
+    width: 26px;
+    height: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-4 .birinchi .nuqta .div1 {
+    width: 6px;
+    height: 6px;
+    background-color: #2E4FD7;
+    border-radius: 50%;
+}
+
+.main-4 .birinchi .nuqta .div2 {
+    width: 6px;
+    height: 6px;
+    background-color: #B4B4B4;
+    border-radius: 50%;
+}
+
+/* *==========ikkinchi========= */
+.main-4 .ikkinchi {
+    width: 380px;
+    height: 420px;
+}
+
+.main-4 .ikkinchi img {
+    width: 380px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+/* !========main-5========= */
+/* !======================= */
+.main-5 {
+    width: 1110px;
+    height: 350px;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-5 h3 {
+    width: 730px;
+    height: 104px;
+    font-size: 48px;
+}
+
+.main-5 .box2 {
+    width: 1110px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-5 .box2 .ideate {
+    width: 255px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-5 .box2 .ideate .img {
+    width: 252px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-5 .box2 .ideate .img .r1 {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.main-5 .box2 .ideate .img .r2 {
+    width: 164px;
+    height: 16px;
+
+}
+
+.main-5 .box2 .ideate .text {
+    width: 255px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-5 .box2 .ideate .text p {
+    font-size: 30px;
+}
+
+.main-5 .box2 .ideate .text span {
+    font-size: 17px;
+}
+
+/* !=========main-6========= */
+/* !======================== */
+.main-6 {
+    width: 1440px;
+    height: 660px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+
+.main-6 h1 {
+    width: 920px;
+    height: 124px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-6 p {
+    width: 826px;
+    height: 56px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-6 button {
+    width: 198px;
+    height: 56px;
+    background-color: #2E4FD7;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.main-6 div {
+    width: 1110px;
+    height: 2px;
+    background-color: gray;
+}
+
+.main-6 img {
+    width: 942px;
+    height: 43px;
+
+}
+
+/* !=========footer======= */
+/* !====================== */
+footer {
+    width: 1440px;
+    height: 408px;
+    background-color: #052825;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .foter {
+    width: 1170px;
+    height: 294px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+footer .foter .about {
+    width: 1169px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .foter .about h5 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/* *=======contact======== */
+footer .foter .about .contact {
+    width: 1169px;
+    height: 139px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* *=========box1======== */
+.foter .about .contact .box1 {
+    width: 423px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foter .about .contact .box1 p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.foter .about .contact .box1 span {
+    font-size: 15px;
+}
+
+.foter .about .contact .box1 div {
+    width: 116px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+/* *==========box2======= */
+.foter .about .contact .box2 {
+    width: 549px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.foter .about .contact .box2 .div3 {
+    width: 549px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.foter .about .contact .box2 .div4 {
+    width: 449px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* *======choziq===== */
+.foter .chiziq1 {
+    width: 1170px;
+    height: 1.5px;
+    background-color: gray;
+}
+
+.foter .low {
+    width: 1170px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foter .low p {
+    width: 387px;
+    height: 44px;
+}
